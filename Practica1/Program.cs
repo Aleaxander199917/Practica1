@@ -6,7 +6,13 @@ namespace Practica1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Company companyy = new Company();
+            companyy.TITLE = "Polotsk";
+            companyy.ADDRESS = "Construction";
+            companyy.YEAROFFOUNDATION = 2013;
+            companyy.ShowTitle();
+            companyy.ShowAddress();
+            companyy.ShowYearOfFoundation();
         }
     }
 }
